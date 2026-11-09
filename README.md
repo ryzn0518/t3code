@@ -1,3 +1,9 @@
+> 服务端主线为 `raft-ccdriver`，远程仓库为 `ryzn0518/ccdriver2`。Raft 已提供本个人 App 的协议兼容适配，复用现有连接逻辑；已验证配对、真实对话、worker 状态和设备撤销。原生设备安装及运行时审批等边界见[接入说明](docs/user/ccdriver.md)。
+
+# ccdriver Personal Agent
+
+This fork adapts T3 Code’s mobile app to your ccdriver server. Start with the [personal Agent app guide](docs/user/ccdriver.md). The upstream project and its original setup instructions follow.
+
 # T3 Code
 
 T3 Code is an "agent harness control surface". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).

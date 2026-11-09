@@ -1,0 +1,78 @@
+{
+  "messages": {
+    "workspace_id": "channel-fixture",
+    "messages": [
+      {
+        "id": "message-fixture",
+        "channel_id": "channel-fixture",
+        "channel_seq": 1,
+        "author_type": "human",
+        "author_id": "person-fixture",
+        "content_markdown": "查看项目进展",
+        "content_hash": "",
+        "tombstoned": false,
+        "kind": "",
+        "causal_root_id": "",
+        "agent_hop_count": 0,
+        "created_at": "2026-11-08T00:00:00Z",
+        "mentions": null
+      }
+    ],
+    "next_cursor": "fixture-cursor",
+    "has_more": false
+  },
+  "tasks": [
+    {
+      "id": "task-fixture",
+      "container_name": "",
+      "project_id": "",
+      "workspace_id": "",
+      "agent_identity_id": "",
+      "agent": "codex",
+      "prompt": "检查项目",
+      "resume": false,
+      "session_ref": "",
+      "status": "done",
+      "result": "已完成检查",
+      "error": "",
+      "source": "",
+      "source_ref": "",
+      "owner": "",
+      "depth": 0,
+      "attempt": 0,
+      "max_retries": 0,
+      "queue_position": null,
+      "created_at": "2026-11-08T00:00:00Z"
+    }
+  ],
+  "workspace": {
+    "channel": {
+      "id": "channel-fixture",
+      "project_id": "",
+      "kind": "",
+      "name": "Personal",
+      "description": "",
+      "status": "",
+      "last_seq": 0,
+      "unread_count": 0,
+      "created_by_type": "",
+      "created_by_id": "",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z",
+      "can_manage_members": false
+    },
+    "main_agent": {
+      "id": "agent-fixture",
+      "project_id": "",
+      "name": "Main",
+      "handle": "",
+      "description": "",
+      "status": "",
+      "created_by": "",
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z"
+    },
+    "workers": null,
+    "runtimes": null
+  }
+}

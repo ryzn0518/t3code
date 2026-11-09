@@ -7,6 +7,10 @@
   ],
   "type": "module",
   "exports": {
+    "./ccdriver": {
+      "types": "./src/ccdriver.ts",
+      "import": "./src/ccdriver.ts"
+    },
     ".": {
       "types": "./src/index.ts",
       "import": "./src/index.ts"

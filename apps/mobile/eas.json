@@ -76,18 +76,5 @@
         "image": "macos-tahoe-26.6-xcode-27.1"
       }
     }
-  },
-  "submit": {
-    "testflight": {
-      "extends": "production"
-    },
-    "production": {
-      "ios": {
-        "ascAppId": "6787819824"
-      },
-      "android": {
-        "track": "internal"
-      }
-    }
   }
 }

@@ -20,6 +20,7 @@ import { AppText as Text } from "./components/ui/AppText";
 import { androidWorkspaceDestinationAnimation } from "./lib/android-workspace-navigation";
 import { getCompactBrandHeaderOptions } from "./features/layout/workspace/brand-header-options";
 import { WorkspaceConnectionStatusProvider } from "./features/home/WorkspaceConnectionTitle";
+import { CCDriverRouteScreen } from "./features/ccdriver/CCDriverRouteScreen";
 import { WorkspaceRootScreen } from "./features/layout/workspace/WorkspaceRootScreen";
 import {
   recordHomeFocus,
@@ -480,8 +481,13 @@ const RootStackConfig = createWorkspaceStackNavigator({
         }
       : {}),
     Home: createNativeStackScreen({
-      screen: WorkspaceRootScreen,
+      screen: CCDriverRouteScreen,
       linking: "",
+      options: { ...pageRoute({ duoMinimize: "never", root: true }), headerShown: false },
+    }),
+    CodeWorkspace: createNativeStackScreen({
+      screen: WorkspaceRootScreen,
+      linking: "code",
       listeners: {
         transitionStart: ({ data }) => recordHomeTransitionStart(data.closing),
         transitionEnd: ({ data }) => recordHomeTransitionEnd(data.closing),

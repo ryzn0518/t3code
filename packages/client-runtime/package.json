@@ -3,6 +3,18 @@
   "private": true,
   "type": "module",
   "exports": {
+    "./ccdriver/requests": {
+      "types": "./src/ccdriver/requests.ts",
+      "default": "./src/ccdriver/requests.ts"
+    },
+    "./ccdriver/client": {
+      "types": "./src/ccdriver/client.ts",
+      "default": "./src/ccdriver/client.ts"
+    },
+    "./ccdriver/controller": {
+      "types": "./src/ccdriver/controller.ts",
+      "default": "./src/ccdriver/controller.ts"
+    },
     "./assembly-highlighting": {
       "types": "./src/assemblyHighlighting.ts",
       "default": "./src/assemblyHighlighting.ts"
